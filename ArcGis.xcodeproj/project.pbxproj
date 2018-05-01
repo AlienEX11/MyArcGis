@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EDB45501E4B29B942923B12 /* libPods-ArcGis.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 254E81EB570B32E73109AE2C /* libPods-ArcGis.a */; };
+		F20852D02090985D002AF7DD /* ControllBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F20852CF2090985D002AF7DD /* ControllBar.m */; };
+		F232625A208FA74D00B9290B /* LineOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = F2326259208FA74D00B9290B /* LineOverlay.m */; };
+		F25DCA3A2086FA6E004C640D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F25DCA392086FA6E004C640D /* AppDelegate.m */; };
+		F25DCA3D2086FA6E004C640D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F25DCA3C2086FA6E004C640D /* ViewController.m */; };
+		F25DCA402086FA6E004C640D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25DCA3E2086FA6E004C640D /* Main.storyboard */; };
+		F25DCA422086FA6E004C640D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F25DCA412086FA6E004C640D /* Assets.xcassets */; };
+		F25DCA452086FA6E004C640D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F25DCA432086FA6E004C640D /* LaunchScreen.storyboard */; };
+		F25DCA482086FA6E004C640D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F25DCA472086FA6E004C640D /* main.m */; };
+		F2636467208F11220080B0D9 /* AreaOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = F2636466208F11220080B0D9 /* AreaOverlay.m */; };
+		F2709A362091DA48003D2F33 /* PointSymbol.m in Sources */ = {isa = PBXBuildFile; fileRef = F2709A352091DA48003D2F33 /* PointSymbol.m */; };
+		F29F12BD2092AF550063A771 /* GeodeticOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = F29F12BC2092AF550063A771 /* GeodeticOverlay.m */; };
+		F2E99A81208749A000892390 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F2E99A80208749A000892390 /* ArcGIS.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F25DCA4E2086FA6E004C640D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25DCA2D2086FA6E004C640D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25DCA342086FA6E004C640D;
+			remoteInfo = ArcGis;
+		};
+		F25DCA592086FA6E004C640D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F25DCA2D2086FA6E004C640D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F25DCA342086FA6E004C640D;
+			remoteInfo = ArcGis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		238CE518D3B84B243BEE5B74 /* Pods-ArcGis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcGis.release.xcconfig"; path = "Pods/Target Support Files/Pods-ArcGis/Pods-ArcGis.release.xcconfig"; sourceTree = "<group>"; };
+		254E81EB570B32E73109AE2C /* libPods-ArcGis.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ArcGis.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69133C56990D6AAC7ECA925D /* Pods-ArcGis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ArcGis.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ArcGis/Pods-ArcGis.debug.xcconfig"; sourceTree = "<group>"; };
+		F20852CE2090985D002AF7DD /* ControllBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControllBar.h; sourceTree = "<group>"; };
+		F20852CF2090985D002AF7DD /* ControllBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControllBar.m; sourceTree = "<group>"; };
+		F2326258208FA74D00B9290B /* LineOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LineOverlay.h; sourceTree = "<group>"; };
+		F2326259208FA74D00B9290B /* LineOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineOverlay.m; sourceTree = "<group>"; };
+		F25DCA352086FA6E004C640D /* ArcGis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArcGis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25DCA382086FA6E004C640D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F25DCA392086FA6E004C640D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F25DCA3B2086FA6E004C640D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F25DCA3C2086FA6E004C640D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F25DCA3F2086FA6E004C640D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F25DCA412086FA6E004C640D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F25DCA442086FA6E004C640D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F25DCA462086FA6E004C640D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25DCA472086FA6E004C640D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F25DCA4D2086FA6E004C640D /* ArcGisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcGisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F25DCA582086FA6E004C640D /* ArcGisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArcGisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2636465208F11220080B0D9 /* AreaOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AreaOverlay.h; sourceTree = "<group>"; };
+		F2636466208F11220080B0D9 /* AreaOverlay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AreaOverlay.m; sourceTree = "<group>"; };
+		F2636468208F4B1E0080B0D9 /* GeodeticOverlay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeodeticOverlay.h; sourceTree = "<group>"; };
+		F2709A342091DA48003D2F33 /* PointSymbol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointSymbol.h; sourceTree = "<group>"; };
+		F2709A352091DA48003D2F33 /* PointSymbol.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointSymbol.m; sourceTree = "<group>"; };
+		F29F12BC2092AF550063A771 /* GeodeticOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeodeticOverlay.m; sourceTree = "<group>"; };
+		F2E99A80208749A000892390 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ArcGIS.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F25DCA322086FA6E004C640D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EDB45501E4B29B942923B12 /* libPods-ArcGis.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25DCA4A2086FA6E004C640D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25DCA552086FA6E004C640D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C62D88AD7A27F9F4C9E86F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				254E81EB570B32E73109AE2C /* libPods-ArcGis.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		674F9B53FE02860565C30713 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				69133C56990D6AAC7ECA925D /* Pods-ArcGis.debug.xcconfig */,
+				238CE518D3B84B243BEE5B74 /* Pods-ArcGis.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F25DCA2C2086FA6E004C640D = {
+			isa = PBXGroup;
+			children = (
+				F2FE2F312088CA44001229DB /* resource */,
+				F25DCA372086FA6E004C640D /* ArcGis */,
+				F25DCA362086FA6E004C640D /* Products */,
+				674F9B53FE02860565C30713 /* Pods */,
+				02C62D88AD7A27F9F4C9E86F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F25DCA362086FA6E004C640D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F25DCA352086FA6E004C640D /* ArcGis.app */,
+				F25DCA4D2086FA6E004C640D /* ArcGisTests.xctest */,
+				F25DCA582086FA6E004C640D /* ArcGisUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F25DCA372086FA6E004C640D /* ArcGis */ = {
+			isa = PBXGroup;
+			children = (
+				F2636464208F10E80080B0D9 /* view */,
+				F25DCA382086FA6E004C640D /* AppDelegate.h */,
+				F25DCA392086FA6E004C640D /* AppDelegate.m */,
+				F25DCA3B2086FA6E004C640D /* ViewController.h */,
+				F25DCA3C2086FA6E004C640D /* ViewController.m */,
+				F25DCA3E2086FA6E004C640D /* Main.storyboard */,
+				F25DCA432086FA6E004C640D /* LaunchScreen.storyboard */,
+				F25DCA462086FA6E004C640D /* Info.plist */,
+				F25DCA472086FA6E004C640D /* main.m */,
+			);
+			path = ArcGis;
+			sourceTree = "<group>";
+		};
+		F2636464208F10E80080B0D9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				F2636468208F4B1E0080B0D9 /* GeodeticOverlay.h */,
+				F29F12BC2092AF550063A771 /* GeodeticOverlay.m */,
+				F2636465208F11220080B0D9 /* AreaOverlay.h */,
+				F2636466208F11220080B0D9 /* AreaOverlay.m */,
+				F2326258208FA74D00B9290B /* LineOverlay.h */,
+				F2326259208FA74D00B9290B /* LineOverlay.m */,
+				F2709A342091DA48003D2F33 /* PointSymbol.h */,
+				F2709A352091DA48003D2F33 /* PointSymbol.m */,
+				F20852CE2090985D002AF7DD /* ControllBar.h */,
+				F20852CF2090985D002AF7DD /* ControllBar.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		F2FE2F312088CA44001229DB /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				F25DCA412086FA6E004C640D /* Assets.xcassets */,
+				F2E99A80208749A000892390 /* ArcGIS.bundle */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F25DCA342086FA6E004C640D /* ArcGis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25DCA612086FA6E004C640D /* Build configuration list for PBXNativeTarget "ArcGis" */;
+			buildPhases = (
+				10A866705D3FBE8E0131BA1D /* [CP] Check Pods Manifest.lock */,
+				F25DCA312086FA6E004C640D /* Sources */,
+				F25DCA322086FA6E004C640D /* Frameworks */,
+				F25DCA332086FA6E004C640D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArcGis;
+			productName = ArcGis;
+			productReference = F25DCA352086FA6E004C640D /* ArcGis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F25DCA4C2086FA6E004C640D /* ArcGisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25DCA642086FA6E004C640D /* Build configuration list for PBXNativeTarget "ArcGisTests" */;
+			buildPhases = (
+				F25DCA492086FA6E004C640D /* Sources */,
+				F25DCA4A2086FA6E004C640D /* Frameworks */,
+				F25DCA4B2086FA6E004C640D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25DCA4F2086FA6E004C640D /* PBXTargetDependency */,
+			);
+			name = ArcGisTests;
+			productName = ArcGisTests;
+			productReference = F25DCA4D2086FA6E004C640D /* ArcGisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F25DCA572086FA6E004C640D /* ArcGisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F25DCA672086FA6E004C640D /* Build configuration list for PBXNativeTarget "ArcGisUITests" */;
+			buildPhases = (
+				F25DCA542086FA6E004C640D /* Sources */,
+				F25DCA552086FA6E004C640D /* Frameworks */,
+				F25DCA562086FA6E004C640D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F25DCA5A2086FA6E004C640D /* PBXTargetDependency */,
+			);
+			name = ArcGisUITests;
+			productName = ArcGisUITests;
+			productReference = F25DCA582086FA6E004C640D /* ArcGisUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F25DCA2D2086FA6E004C640D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = com.jk;
+				TargetAttributes = {
+					F25DCA342086FA6E004C640D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					F25DCA4C2086FA6E004C640D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F25DCA342086FA6E004C640D;
+					};
+					F25DCA572086FA6E004C640D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F25DCA342086FA6E004C640D;
+					};
+				};
+			};
+			buildConfigurationList = F25DCA302086FA6E004C640D /* Build configuration list for PBXProject "ArcGis" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F25DCA2C2086FA6E004C640D;
+			productRefGroup = F25DCA362086FA6E004C640D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F25DCA342086FA6E004C640D /* ArcGis */,
+				F25DCA4C2086FA6E004C640D /* ArcGisTests */,
+				F25DCA572086FA6E004C640D /* ArcGisUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F25DCA332086FA6E004C640D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25DCA452086FA6E004C640D /* LaunchScreen.storyboard in Resources */,
+				F25DCA422086FA6E004C640D /* Assets.xcassets in Resources */,
+				F2E99A81208749A000892390 /* ArcGIS.bundle in Resources */,
+				F25DCA402086FA6E004C640D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25DCA4B2086FA6E004C640D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25DCA562086FA6E004C640D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10A866705D3FBE8E0131BA1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ArcGis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F25DCA312086FA6E004C640D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2709A362091DA48003D2F33 /* PointSymbol.m in Sources */,
+				F232625A208FA74D00B9290B /* LineOverlay.m in Sources */,
+				F29F12BD2092AF550063A771 /* GeodeticOverlay.m in Sources */,
+				F25DCA3D2086FA6E004C640D /* ViewController.m in Sources */,
+				F20852D02090985D002AF7DD /* ControllBar.m in Sources */,
+				F25DCA482086FA6E004C640D /* main.m in Sources */,
+				F25DCA3A2086FA6E004C640D /* AppDelegate.m in Sources */,
+				F2636467208F11220080B0D9 /* AreaOverlay.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25DCA492086FA6E004C640D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F25DCA542086FA6E004C640D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F25DCA4F2086FA6E004C640D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25DCA342086FA6E004C640D /* ArcGis */;
+			targetProxy = F25DCA4E2086FA6E004C640D /* PBXContainerItemProxy */;
+		};
+		F25DCA5A2086FA6E004C640D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F25DCA342086FA6E004C640D /* ArcGis */;
+			targetProxy = F25DCA592086FA6E004C640D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F25DCA3E2086FA6E004C640D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25DCA3F2086FA6E004C640D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F25DCA432086FA6E004C640D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F25DCA442086FA6E004C640D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F25DCA5F2086FA6E004C640D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F25DCA602086FA6E004C640D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F25DCA622086FA6E004C640D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69133C56990D6AAC7ECA925D /* Pods-ArcGis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JT4JL3D3H;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/Frameworks/Static/**";
+				INFOPLIST_FILE = ArcGis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.ArcGis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F25DCA632086FA6E004C640D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238CE518D3B84B243BEE5B74 /* Pods-ArcGis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4JT4JL3D3H;
+				FRAMEWORK_SEARCH_PATHS = "$(HOME)/Library/SDKs/ArcGIS/iOS/Frameworks/Static/**";
+				INFOPLIST_FILE = ArcGis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.ArcGis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F25DCA652086FA6E004C640D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcGisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.ArcGisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcGis.app/ArcGis";
+			};
+			name = Debug;
+		};
+		F25DCA662086FA6E004C640D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcGisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.ArcGisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArcGis.app/ArcGis";
+			};
+			name = Release;
+		};
+		F25DCA682086FA6E004C640D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcGisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.ArcGisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcGis;
+			};
+			name = Debug;
+		};
+		F25DCA692086FA6E004C640D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ArcGisUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jk.ArcGisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArcGis;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F25DCA302086FA6E004C640D /* Build configuration list for PBXProject "ArcGis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25DCA5F2086FA6E004C640D /* Debug */,
+				F25DCA602086FA6E004C640D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25DCA612086FA6E004C640D /* Build configuration list for PBXNativeTarget "ArcGis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25DCA622086FA6E004C640D /* Debug */,
+				F25DCA632086FA6E004C640D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25DCA642086FA6E004C640D /* Build configuration list for PBXNativeTarget "ArcGisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25DCA652086FA6E004C640D /* Debug */,
+				F25DCA662086FA6E004C640D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F25DCA672086FA6E004C640D /* Build configuration list for PBXNativeTarget "ArcGisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F25DCA682086FA6E004C640D /* Debug */,
+				F25DCA692086FA6E004C640D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F25DCA2D2086FA6E004C640D /* Project object */;
+}
